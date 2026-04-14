@@ -15,8 +15,8 @@ body {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.125rem;
   line-height: 1.75;
-  color: #222;
-  background-color: #fafaf8;
+  color: #3b1f4a;
+  background-color: #fdf6ff;
 }
 
 /* ── Typography ───────────────────────────────────────────── */
@@ -25,7 +25,7 @@ h2,
 h3 {
   font-family: system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
   line-height: 1.2;
-  color: #111;
+  color: #5b1f8a;
 }
 
 h1 { font-size: 2.75rem; }
@@ -35,12 +35,12 @@ h3 { font-size: 1.375rem; margin-bottom: 0.5rem; }
 p { margin-bottom: 1.25rem; }
 
 a {
-  color: #2563eb;
+  color: #a855f7;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
-a:hover { color: #1d4ed8; }
+a:hover { color: #7e22ce; }
 
 /* ── Layout ───────────────────────────────────────────────── */
 header,
@@ -62,8 +62,8 @@ main {
 /* ── Header & nav ─────────────────────────────────────────── */
 header {
   max-width: 100%;
-  background-color: #1e293b;
-  color: #f8fafc;
+  background: linear-gradient(135deg, #6b21a8 0%, #a855f7 50%, #ec4899 100%);
+  color: #fdf4ff;
   padding-inline: 0;
 }
 
@@ -75,7 +75,7 @@ header > * {
 
 nav {
   padding-block: 1rem;
-  border-bottom: 1px solid #334155;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 nav ul {
@@ -85,33 +85,34 @@ nav ul {
 }
 
 nav a {
-  color: #cbd5e1;
+  color: #f3e8ff;
   text-decoration: none;
   font-family: system-ui, sans-serif;
   font-size: 0.9375rem;
   font-weight: 500;
 }
 
-nav a:hover { color: #f8fafc; }
+nav a:hover { color: #ffffff; }
 
 .hero {
   padding-block: 4rem 3.5rem;
 }
 
 .hero h1 {
-  color: #f8fafc;
+  color: #ffffff;
   margin-bottom: 0.5rem;
+  text-shadow: 0 2px 12px rgba(168, 85, 247, 0.4);
 }
 
 .tagline {
-  color: #94a3b8;
+  color: #f9d8ff;
   font-size: 1.25rem;
   margin-bottom: 0;
 }
 
 /* ── Sections ─────────────────────────────────────────────── */
 section {
-  border-top: 2px solid #e2e8f0;
+  border-top: 2px solid #e9b8ff;
   padding-top: 2.5rem;
 }
 
@@ -140,22 +141,23 @@ figure img {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 6px;
-  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  border: 3px solid #d8b4fe;
+  box-shadow: 0 4px 24px rgba(168, 85, 247, 0.15);
 }
 
 figcaption {
   margin-top: 0.6rem;
   font-size: 0.9rem;
-  color: #64748b;
+  color: #9333ea;
   font-style: italic;
 }
 
 /* ── Footer ───────────────────────────────────────────────── */
 footer {
   max-width: 100%;
-  background-color: #1e293b;
-  color: #94a3b8;
+  background: linear-gradient(135deg, #6b21a8 0%, #a855f7 50%, #ec4899 100%);
+  color: #f3e8ff;
   text-align: center;
   padding-block: 1.75rem;
   font-family: system-ui, sans-serif;
