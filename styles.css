@@ -13,10 +13,10 @@ html {
 
 body {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.125rem;
-  line-height: 1.75;
-  color: #222;
-  background-color: #fafaf8;
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  color: #1a1a2e;
+  background-color: #f5f3f8;
 }
 
 /* ── Typography ───────────────────────────────────────────── */
@@ -28,19 +28,19 @@ h3 {
   color: #111;
 }
 
-h1 { font-size: 2.75rem; }
-h2 { font-size: 1.875rem; margin-bottom: 0.75rem; }
-h3 { font-size: 1.375rem; margin-bottom: 0.5rem; }
+h1 { font-size: 3rem; }
+h2 { font-size: 2rem; margin-bottom: 0.75rem; }
+h3 { font-size: 1.5rem; margin-bottom: 0.5rem; }
 
 p { margin-bottom: 1.25rem; }
 
 a {
-  color: #2563eb;
+  color: #7c3aed;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
-a:hover { color: #1d4ed8; }
+a:hover { color: #5b21b6; }
 
 /* ── Layout ───────────────────────────────────────────────── */
 header,
@@ -62,7 +62,7 @@ main {
 /* ── Header & nav ─────────────────────────────────────────── */
 header {
   max-width: 100%;
-  background-color: #1e293b;
+  background-color: #4f1b6e;
   color: #f8fafc;
   padding-inline: 0;
 }
@@ -154,8 +154,8 @@ figcaption {
 /* ── Footer ───────────────────────────────────────────────── */
 footer {
   max-width: 100%;
-  background-color: #1e293b;
-  color: #94a3b8;
+  background-color: #3b1057;
+  color: #d8b4fe;
   text-align: center;
   padding-block: 1.75rem;
   font-family: system-ui, sans-serif;
