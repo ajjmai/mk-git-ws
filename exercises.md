@@ -56,6 +56,12 @@ Practice resolving a merge conflict caused by two branches editing the same line
 Note: Each line starting with 'git' e.g. `git add .` is a different command, so you should run them one at a time in your terminal. Make sure to replace `your-name-feature` with the actual name of your branch.
 
 ```bash
+
+# create your own branch from main if you haven't already
+git checkout main
+git pull
+git checkout -b your-name-feature
+
 # Do and commit your changes
 git add .
 git commit -m "Edit line 29"
